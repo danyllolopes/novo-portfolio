@@ -1,0 +1,76 @@
+.introBg {
+  background: #121212;
+  height: calc(100vh - 80px);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.info p {
+  font-family: "Poppings", sans-serif;
+  color: #b3b3b3;
+  font-size: 2em;
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: entrar 1s forwards;
+}
+
+.info h1 {
+  font-family: "Poppings", sans-serif;
+  font-size: 2.625em;
+  color: #ffffff;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  font-weight: 500;
+  opacity: 0;
+  animation: entrar 2s forwards;
+}
+
+.link {
+  font-family: "Poppings", sans-serif;
+  color: #ffffff;
+  font-size: 1.4em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  border: 1px solid #b3b3b3;
+  opacity: 0;
+  animation: entrar 3s forwards;
+}
+.link::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -5;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(208, 208, 208, 1) 0%,
+    rgba(237, 236, 236, 0.5214460784313726) 44%
+  );
+  transition: all 0.7s ease;
+}
+
+.link:hover::before {
+  width: 110%;
+}
+@keyframes entrar {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

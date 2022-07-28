@@ -1,0 +1,49 @@
+.header {
+  background: #000000;
+}
+.headerInfo {
+  padding: 15px 0;
+}
+.headerContainer img {
+  width: 80px;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerNav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.headerNav a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  padding: 10px;
+}
+.headerNav a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #b3b3b3;
+  transition: 0.3s;
+}
+.headerNav a:hover {
+  color: #b3b3b3;
+}
+.headerNav a:hover::after {
+  width: 100%;
+}
+.headerNav a:global(.active) {
+  color: #b3b3b3;
+}
+.headerNav a:global(.active)::after {
+  width: 100%;
+}
