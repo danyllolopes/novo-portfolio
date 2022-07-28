@@ -74,9 +74,11 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+.button button > svg {
   transition: all 0.3s ease-in-out;
 }
-.button button:hover {
+.button button > svg:hover {
   transform: scale(1.2);
 }
 .button button:first-child {

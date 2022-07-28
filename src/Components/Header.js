@@ -13,9 +13,11 @@ const Header = () => {
             <img src={logo} alt="Logo" />
           </NavLink>
           <ul className={styles.headerNav}>
+            <NavLink end to="/">
+              Inicio
+            </NavLink>
             <NavLink to="sobre">Sobre</NavLink>
             <NavLink to="projetos">Portfolio</NavLink>
-            <NavLink to="contato">Contato</NavLink>
           </ul>
         </nav>
       </div>

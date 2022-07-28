@@ -3,6 +3,7 @@ import styles from "./Portfolio.module.css";
 import projetos from "./PortifolioSlide";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Head from "../Helper/Head";
 
 const Portfolio = () => {
   const slide = React.useRef(null);
@@ -19,6 +20,7 @@ const Portfolio = () => {
 
   return (
     <section className={styles.projetos}>
+      <Head title="Projetos" />
       <h2 className="animeTop">Projetos</h2>
 
       <div className={styles.container}>

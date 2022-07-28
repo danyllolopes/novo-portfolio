@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
-
+import Head from "../Helper/Head";
 const Home = () => {
   return (
     <main className={styles.introBg}>
+      <Head title="Home" />
       <div className={`container ${styles.introContainer}`}>
         <section className={styles.info}>
           <p>Olá 👋, me chamo Danyllo</p>

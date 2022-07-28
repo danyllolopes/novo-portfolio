@@ -5,6 +5,7 @@ import seta from "../../Assets/seta.svg";
 import images from "./Images";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Head from "../Helper/Head";
 
 const Sobre = () => {
   const [selected, setSelected] = React.useState(images[0]);
@@ -22,6 +23,7 @@ const Sobre = () => {
   return (
     <>
       <section className={styles.sobreBg}>
+        <Head title="Sobre" />
         <div className={`${styles.sobre} container`}>
           <h2 className="animeTop">Sobre Mim</h2>
           <img src={sobreimg} alt="Imagem" className="animeLeft" />
