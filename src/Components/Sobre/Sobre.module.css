@@ -115,7 +115,6 @@
   overflow-y: hidden;
   scroll-behavior: smooth;
   height: 300px;
-  background: red;
 }
 .item {
   margin: 10px;
@@ -166,14 +165,11 @@
   .selecionada {
     display: none;
   }
-
   .carousel {
-    height: 150px;
+    height: auto;
   }
   .item {
-    padding: 30px;
-    width: 270px;
-    height: auto;
+    margin-right: 10px;
   }
   .image img {
     cursor: initial;
