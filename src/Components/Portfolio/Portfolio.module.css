@@ -89,3 +89,24 @@
   top: 200px;
   right: -40px;
 }
+@media (max-width: 739px) {
+  .projetos h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .slide {
+    align-items: flex-start;
+  }
+  .item {
+    grid-template-columns: minmax(100px, 250px);
+  }
+  .info h3 {
+    font-size: 1.5em;
+  }
+  .info p {
+    font-size: 1em;
+  }
+}
