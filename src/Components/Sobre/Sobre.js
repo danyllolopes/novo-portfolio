@@ -6,28 +6,18 @@ import images from "./Images";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Head from "../Helper/Head";
-import useMedia from "../Helper/useMedia";
+
 const Sobre = () => {
   const [selected, setSelected] = React.useState(images[0]);
   const carousel = React.useRef(null);
-  const mobile = useMedia("(max-width: 46rem)");
 
   const handleLeftClick = (e) => {
     e.preventDefault();
-    if (mobile) {
-      carousel.current.scrollLeft -= carousel.current.offsetWidth / 1;
-    } else {
-      carousel.current.scrollLeft -= carousel.current.offsetWidth / 2;
-    }
+    carousel.current.scrollLeft -= carousel.current.offsetWidth / 0.99;
   };
 
   const handleRightClick = (e) => {
-    e.preventDefault();
-    if (mobile) {
-      carousel.current.scrollLeft -= carousel.current.offsetWidth / 1;
-    } else {
-      carousel.current.scrollLeft += carousel.current.offsetWidth / 2;
-    }
+    carousel.current.scrollLeft += carousel.current.offsetWidth / 0.99;
   };
   return (
     <>
