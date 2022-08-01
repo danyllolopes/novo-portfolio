@@ -19,7 +19,7 @@ export default [
     titulo: "Dogs",
     descricao:
       "Projeto Dogs desenvolvido no curso da origamid, feito em ReactJs, HTML, CSS e JavaScript.",
-    link: "https://dogs-ebon.vercel.app/",
+    link: "https://dogs-green.vercel.app/",
   },
   {
     slide: slide3,
