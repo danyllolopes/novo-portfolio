@@ -115,6 +115,7 @@
   overflow-y: hidden;
   scroll-behavior: smooth;
   height: 300px;
+  background: red;
 }
 .item {
   margin: 10px;
@@ -167,11 +168,11 @@
   }
 
   .carousel {
-    height: auto;
+    height: 150px;
   }
   .item {
     padding: 30px;
-    width: 300px;
+    width: 270px;
     height: auto;
   }
   .image img {
@@ -179,5 +180,12 @@
   }
   .image img:hover {
     transform: scale(1);
+  }
+
+  .button button:first-child {
+    top: 60px;
+  }
+  .button button:last-child {
+    top: 60px;
   }
 }
