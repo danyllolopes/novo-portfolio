@@ -176,9 +176,11 @@
     padding: 30px;
     width: 350px;
     height: auto;
-    flex: none;
+  }
+  .image img {
+    cursor: initial;
   }
   .image img:hover {
-    transform: none;
+    transform: scale(1);
   }
 }
