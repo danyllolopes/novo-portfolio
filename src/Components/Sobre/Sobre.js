@@ -13,11 +13,11 @@ const Sobre = () => {
 
   const handleLeftClick = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft -= carousel.current.offsetWidth / 0.99;
+    carousel.current.scrollLeft -= carousel.current.offsetWidth / 2;
   };
 
   const handleRightClick = (e) => {
-    carousel.current.scrollLeft += carousel.current.offsetWidth / 0.99;
+    carousel.current.scrollLeft += carousel.current.offsetWidth / 2;
   };
   return (
     <>

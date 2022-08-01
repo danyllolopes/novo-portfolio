@@ -173,6 +173,7 @@
   }
   .image img {
     cursor: initial;
+    box-shadow: none;
   }
   .image img:hover {
     transform: scale(1);
