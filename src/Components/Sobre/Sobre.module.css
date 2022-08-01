@@ -157,3 +157,28 @@
   top: 120px;
   right: -40px;
 }
+@media (max-width: 739px) {
+  .title {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .selecionada {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    position: relative;
+  }
+  .carousel {
+    height: auto;
+  }
+  .item {
+    padding: 30px;
+    width: 350px;
+    height: auto;
+    flex: none;
+  }
+  .image img:hover {
+    transform: none;
+  }
+}
