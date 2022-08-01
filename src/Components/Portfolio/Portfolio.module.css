@@ -105,12 +105,17 @@
     align-items: flex-start;
   }
   .item {
-    grid-template-columns: minmax(100px, 150px);
+    grid-template-columns: minmax(100px, 200px);
   }
   .info h3 {
     font-size: 1.5em;
+    text-align: center;
+  }
+  .info h3::before {
+    display: none;
   }
   .info p {
     font-size: 1.3em;
+    text-align: center;
   }
 }
