@@ -27,6 +27,7 @@
   margin-bottom: 15px;
   font-weight: 500;
   opacity: 0;
+  text-align: center;
   animation: entrar 2s forwards;
 }
 
@@ -72,5 +73,19 @@
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@media (max-width: 739px) {
+  .introBg {
+    height: auto;
+  }
+  .info p {
+    font-size: 1.5em;
+  }
+  .info h1 {
+    font-size: 2em;
+  }
+  .link {
+    font-size: 1em;
   }
 }

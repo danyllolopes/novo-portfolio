@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main className={styles.introBg}>
       <Head title="Home" />
-      <div className={`container ${styles.introContainer}`}>
+      <div className={"container"}>
         <section className={styles.info}>
           <p>Olá 👋, me chamo Danyllo</p>
           <h1>
