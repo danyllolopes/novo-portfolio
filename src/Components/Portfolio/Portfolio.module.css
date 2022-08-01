@@ -101,7 +101,7 @@
     align-items: flex-start;
   }
   .item {
-    grid-template-columns: minmax(100px, 250px);
+    grid-template-columns: minmax(100px, 150px);
   }
   .info h3 {
     font-size: 1.5em;
