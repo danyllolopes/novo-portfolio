@@ -102,17 +102,19 @@
     padding: 0 20px;
   }
   .slide {
-    align-items: flex-start;
+    align-items: center;
   }
   .item {
-    grid-template-columns: minmax(100px, 200px);
+    grid-template-columns: minmax(100px, 150px);
+    background: blue;
   }
   .info h3 {
     font-size: 1.5em;
     text-align: center;
   }
   .info h3::before {
-    display: none;
+    left: 20px;
+    top: 4px;
   }
   .info p {
     font-size: 1.3em;
