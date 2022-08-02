@@ -95,30 +95,37 @@
   }
   .projetos h2 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .container {
-    padding: 0 20px;
+    padding: 0;
   }
   .slide {
     align-items: center;
   }
   .item {
-    grid-template-columns: minmax(100px, 250px);
+    display: flex;
+    flex-direction: column;
   }
   .image img {
-    width: 300px;
+    width: 230px;
   }
   .info h3 {
     font-size: 1.5em;
     text-align: center;
   }
   .info h3::before {
-    left: 20px;
-    top: 4px;
+    display: none;
   }
   .info p {
-    font-size: 1.3em;
-    text-align: center;
+    display: none;
+  }
+  .button button:first-child {
+    top: 100px;
+    left: -40px;
+  }
+  .button button:last-child {
+    top: 100px;
+    right: -40px;
   }
 }

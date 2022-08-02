@@ -10,12 +10,12 @@ const Portfolio = () => {
 
   const handleLeftClick = (e) => {
     e.preventDefault();
-    slide.current.scrollLeft -= slide.current.offsetWidth / 0.99;
+    slide.current.scrollLeft -= slide.current.offsetWidth / 2;
   };
 
   const handleRightClick = (e) => {
     e.preventDefault();
-    slide.current.scrollLeft += slide.current.offsetWidth / 0.99;
+    slide.current.scrollLeft += slide.current.offsetWidth / 2;
   };
 
   return (
