@@ -91,7 +91,6 @@
 }
 @media (max-width: 739px) {
   .projetos {
-    height: auto;
     padding: 40px 0;
   }
   .projetos h2 {
@@ -105,7 +104,10 @@
     align-items: center;
   }
   .item {
-    grid-template-columns: minmax(100px, 150px);
+    grid-template-columns: minmax(100px, 250px);
+  }
+  .image img {
+    width: 300px;
   }
   .info h3 {
     font-size: 1.5em;
