@@ -106,7 +106,6 @@
   }
   .item {
     grid-template-columns: minmax(100px, 150px);
-    background: blue;
   }
   .info h3 {
     font-size: 1.5em;
